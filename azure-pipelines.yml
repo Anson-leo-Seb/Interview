@@ -9,6 +9,9 @@ trigger:
       - main
       - master
       - release/*
+  tags:
+    include:
+      - R*
 
 pool:
   vmImage: 'ubuntu-latest'
