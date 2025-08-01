@@ -16,5 +16,7 @@ pool:
 steps:
   - checkout: self
 
-  - script: echo "Running CI for branch: $(Build.SourceBranch)"
+  - script: 'echo "Running CI for branch: $(Build.SourceBranch)"'
     displayName: 'Run build step'
+
+
